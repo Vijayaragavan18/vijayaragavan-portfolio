@@ -1,0 +1,1515 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navPageBtn a {
+    color: white;
+}
+
+.contactL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+
+.navPageBtn {
+    background-color: #0c0f0e;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    border-radius: 0px 0px 80px 80px;
+}
+
+.logoName {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.hireBtn {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    width: 25%;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+
+
+.heroPageSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.myName {
+    position: absolute;
+    left: 7rem;
+
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myName h1 {
+    line-height: 62px;
+}
+
+.nameStyleTwo {
+
+    letter-spacing: 4px;
+}
+
+.nameStyle {
+    font-size: 5rem;
+}
+
+.myPhotoImg {
+    user-select: none;
+}
+
+.hireBtn {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.heroPageMixing {
+    position: relative;
+
+}
+
+.navSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+
+}
+
+.myPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.myPhotoImg {
+
+    user-select: none;
+    width: 70%;
+}
+
+
+.navIcon {
+    text-decoration: none;
+    color: #020202;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* about */
+
+.aboutImgSec {
+    width: 40%;
+}
+
+.aboutDescription {
+    width: 40%;
+}
+
+.aboutContentArea {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.aboutMedes {
+    text-align: justify;
+    color: #d7d0d0;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+
+.aboutDesOne h1, p {
+    color: #e1e1e1;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.headCourse {
+    font-size: 28px;
+    color: aliceblue;
+    margin-bottom: 8px;
+}
+
+.hrOne {
+    border: none;
+    height: 4px;
+
+    margin: 10px 0;
+    background: linear-gradient(278deg, rgb(57, 44, 235) 11%, rgba(145, 29, 253, 1) 51%, rgba(255, 3, 3, 1) 100%);
+}
+
+.aboutMe {
+    width: 67%;
+    box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.03);
+    padding: 10px;
+}
+
+.aboutSection {
+    background-color: #020202;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.aboutMeHead h1 {
+    font-size: 50px;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+.aboutMeHead {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footerSecOne {
+    display: flex;
+
+}
+
+.aboutDesOne h1, p {
+    color: #e1e1e1;
+    text-align: justify;
+}
+
+.onePoster h1 {
+    color: white;
+    font-size: 12px;
+}
+
+.dateIntern {
+    color: #e1e1e1;
+}
+
+.allSkills {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 60px;
+    width: 80%;
+}
+
+.skillImages {
+    width: 30%;
+}
+
+.skillSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.skillSection:nth-child(1) {
+    box-shadow: 0px 0px 8px 1px rgb(117, 164, 255);
+    border: 1px solid rgb(112, 158, 246);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(2) {
+    box-shadow: 0px 0px 8px 1px rgb(255, 223, 0);
+    border: 1px solid rgb(255, 223, 0);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(3) {
+    box-shadow: 0px 0px 8px 1px rgb(61, 173, 237);
+    border: 1px solid rgb(60, 171, 235);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(4) {
+    box-shadow: 0px 0px 8px 1px rgb(142, 157, 208);
+    border: 2px solid rgb(143, 158, 209);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(5) {
+    box-shadow: 0px 0px 8px 1px rgb(252, 21, 8);
+    border: 2px solid rgb(247, 43, 30);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(6) {
+    box-shadow: 0px 0px 8px 1px rgb(254, 155, 0);
+    border: 2px solid rgb(254, 165, 2);
+    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.skillSection:nth-child(7) {
+    box-shadow: 0px 0px 8px 1px rgb(130, 16, 249);
+    border: 2px solid rgb(123, 17, 246);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(8) {
+    box-shadow: 0px 0px 8px 1px rgb(52, 125, 183);
+    border: 2px solid rgb(57, 127, 183);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(9) {
+    box-shadow: 0px 0px 8px 1px rgb(10, 53, 104);
+    border: 2px solid rgb(0, 106, 171);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(10) {
+    box-shadow: 0px 0px 8px 1px rgb(0, 207, 127);
+    border: 2px solid rgb(0, 224, 137);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(11) {
+    box-shadow: 0px 0px 8px 1px rgb(254, 154, 0);
+    border: 2px solid rgb(254, 154, 0);
+    border-radius: 10px;
+}
+
+.skillSection:nth-child(12) {
+    box-shadow: 0px 0px 8px 1px rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skillText {
+    color: white;
+}
+
+.skillContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillHead h1 {
+
+    font-size: 50px;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.skillHead {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skillPart {
+    background-color: #020202;
+
+    padding-bottom: 10%;
+}
+
+
+
+/* Projectss */
+
+.projectImgPart {
+    width: 50%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 16px 0px rgba(253, 253, 253, 0.616);
+}
+
+.projectHead {
+    text-align: center;
+}
+
+.projectLines {
+    display: grid;
+    gap: 75px;
+}
+
+.projectHead h1 {
+    font-size: 50px;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+
+.projectHeadText {
+    font-size: 20px;
+    color: white;
+
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.projectTimeSec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectSection {
+    background-color: #020202;
+
+    padding-bottom: 10%;
+}
+
+.LinksRote {
+
+    background-color: #020202;
+
+    padding-bottom: 10%;
+
+}
+
+.projectPart {
+    display: flex;
+    align-items: center;
+}
+
+.projectDescription {
+    width: 38%;
+
+    display: grid;
+    gap: 10px;
+}
+
+.projectImg {
+    width: 50%;
+}
+
+.projectImgPart {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.projectImg2 {
+    width: 60%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.projectImgPartPoster {
+    width: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.projectPart {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.projectArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.liveBtn {
+    background-color: bisque;
+
+    padding: 10px 25px;
+
+    border-radius: 15px;
+
+    border: none;
+
+    color: black;
+    width: fit-content;
+
+}
+
+.projectLinks {
+    display: flex;
+
+    gap: 20px;
+}
+
+.projectBtn {
+    border: none;
+    background-color: antiquewhite;
+    padding: 10px 40px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.vj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+
+.projectDescription2 {
+    width: 30%;
+    display: grid;
+    gap: 10px;
+}
+
+.projectTime {
+    color: white;
+}
+
+/* Footer */
+
+.footerWidth {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.downloadBtn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: linear-gradient(278deg, rgb(57, 44, 235) 11%, rgba(145, 29, 253, 1) 51%, rgba(255, 3, 3, 1) 100%);
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.downloadBtn::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 18px;
+    background-color: #0e0e0f;
+    z-index: -1;
+}
+
+
+.contactQuery {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputSec {
+    display: grid;
+    gap: 20px;
+}
+
+.inputField {
+    display: grid;
+    gap: 10px;
+}
+
+.contactMe {
+    background-color: #020202;
+
+    padding-bottom: 10%;
+}
+
+.contactHead h1 {
+    font-size: 50px;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.formHead h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.formSectiom {
+    display: grid;
+    gap: 20px;
+
+}
+
+.formBtn {
+    border: none;
+    background-color: antiquewhite;
+    padding: 10px 40px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.formSumBtn {
+    text-align: end;
+}
+
+.formSection {
+    background-color: #b3b5b52e;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.formMsgLinks {
+    display: flex
+}
+
+
+.inputOne {
+    border: none;
+    width: 222px;
+
+    border-radius: 20px;
+    background-color: #616262;
+    padding: 17px;
+    outline: none;
+    color: #eee9e9;
+    font-size: 13px;
+}
+
+textarea {
+    resize: none;
+    height: 35vh;
+    background-color: #616262;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: #eee9e9;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+.inputFirst {
+    display: flex;
+    gap: 20px;
+}
+
+label {
+    color: white;
+}
+
+
+.bgColor {
+    background: linear-gradient(278deg, rgb(5, 0, 70) 11%, rgb(145, 29, 253) 51%, rgb(255, 3, 3) 100%);
+    width: 504px;
+    height: 24vh;
+    filter: blur(200px);
+    -webkit-filter: blur(219px);
+}
+
+.formMsg {
+    position: absolute;
+    z-index: 4;
+    gap: 8px;
+    display: grid;
+}
+
+.secOneForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectPartMob {
+    display: none;
+}
+
+.formMsgLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactHead {
+    text-align: start;
+    margin-left: 70px;
+}
+
+.footerContent {
+    background: #0e0e0f;
+}
+
+.bottomCpy {
+    color: #e1e1e1a9;
+}
+
+.fooLine {
+    color: white;
+}
+
+.projCategory {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    width: 60%;
+    border-radius: 50px;
+    padding: 7px 0px;
+}
+
+
+
+.catLink {
+    padding: 8px 30px;
+    background-color: rgb(5, 5, 5);
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 0rem;
+    color: white;
+}
+
+.categorySec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projCategory button {
+    border: none;
+}
+
+.contentBlock {
+    display: none;
+}
+
+.devCetagory {
+    display: none;
+}
+
+.devCetagory.active {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectPop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+}
+
+.projectPop.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.devCetagoryOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grapPosterSec {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.onePoster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.highlight {
+    transition: background-color 0.3s ease;
+
+}
+
+.onePoster h1 {
+    color: white;
+    font-size: 22px;
+}
+
+img {
+    width: 100%;
+}
+
+.projectBtn {
+    text-decoration: none;
+    color: black;
+}
+
+.myProfiles {
+    width: 50%;
+    gap: 5px;
+}
+
+.animated-button {
+    padding: 12px 24px;
+
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+
+.onePoster:hover {
+    transform: scale(1.1);
+}
+
+.skillSection {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.skillSection:hover {
+    transform: scale(1.1);
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+
+}
+
+.textBox {
+    background-color: #001517;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+.myProfilePhoto {
+    width: 25%;
+}
+
+.mePhoto {
+    box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.03);
+}
+
+.formMsg h1 {
+    text-align: center;
+}
+
+/* .launchModalProj {
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.7);
+    transition: transform 0.4s ease;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 70%;
+} */
+.launchModalProj {
+    gap: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* instead of center */
+    transform: scale(0.7);
+
+    /* ensures scaling starts from top */
+    transition: transform 0.4s ease;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+    max-height: 100vh;
+    /* prevent overflow */
+    overflow-y: auto;
+    /* enable scroll if content too big */
+}
+
+.launchModalProj p {
+
+    color: #2b2b2be8;
+    text-align: justify;
+
+}
+
+.close {
+    padding: 12px;
+    background-color: red;
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modalBody {
+    padding: 30px 100px;
+}
+
+
+.mobName {
+    display: none;
+}
+
+.myPhotoImgMob {
+    display: none;
+}
+
+.hireBtONe {
+    display: none;
+}
+
+.menuIconTag {
+    display: none;
+}
+
+.menuSec {
+    display: none;
+
+}
+
+.projectPartMobTwo {
+    display: none;
+}
+
+.myProfilePhotoMob {
+    display: none;
+}
+
+.profileDetails {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.catLink.btnActive {
+    padding: 3px 9px;
+    background-color: #064002cf;
+    border-radius: 50px;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+@media (max-width:480px) {
+    .modalBody {
+        padding: 10px 0px;
+    }
+
+    .catLink.btnActive {
+        padding: 3px 9px;
+        background-color: #064002cf;
+        border-radius: 50px;
+        font-size: 12px;
+        border-radius: 9px;
+    }
+
+    .close {
+        padding: 12px;
+        background-color: red;
+        width: 40%;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .projectPartMobTwo {
+
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+
+    .hireBtONe {
+        display: flex;
+        padding: 10px 30px;
+        font-size: 20px;
+        border: none;
+        width: 60%;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .hireBtONe:hover {
+        background-color: #05b46b !important;
+        color: white !important;
+    }
+
+    .hireBtn {
+        display: none;
+    }
+
+    .contactLMob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 19px;
+    }
+
+    .contactLMob {
+        color: black;
+    }
+
+    .navIcon {
+        text-decoration: none;
+        color: #020202 !important;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+
+    .navPageBtn, .contactL {
+        display: none;
+    }
+
+    .mobName {
+        display: flex;
+
+        color: white;
+        line-height: 58px;
+    }
+
+    .menuSideBar {
+        text-align: center;
+        width: 177px;
+        height: 356px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        background-color: #242222;
+        overflow: auto;
+        border-radius: 10px;
+    }
+
+    .downloadBtn {
+        padding: 5px 18px;
+    }
+
+    .textBox {
+        background-color: #001517;
+        border-radius: 10px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .myProfiles {
+        width: 100%;
+        gap: 5px;
+    }
+
+    .profileDetails {
+        gap: 20px;
+
+        flex-direction: column;
+    }
+
+    .myProfilePhoto {
+        display: none;
+
+    }
+
+    .proSec {
+        margin-top: 30px;
+    }
+
+    .myProfilePhotoMob {
+        width: 50%;
+        display: flex;
+    }
+
+    .menuSideBar a {
+        color: white;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .menuSideBar a:hover {
+        transform: scale(1.1);
+    }
+
+    .myName h1 {
+        line-height: 62px;
+        font-size: 34px;
+    }
+
+    .deskName {
+        display: none;
+    }
+
+    .myPhotoImg {
+        display: none;
+    }
+
+    .myPhotoImgMob {
+        display: flex;
+    }
+
+    .navSection {
+        background-color: #00000045;
+        padding: 3px 15px;
+        justify-content: space-between;
+        position: fixed;
+    }
+
+    .myName {
+        position: absolute;
+        left: 1rem;
+        margin-bottom: 9rem;
+        gap: 0px;
+    }
+
+    .heroPageSection {
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+
+    }
+
+    .aboutDescription {
+        width: 88%;
+
+    }
+
+    .projectPartDesk {
+        display: none !important;
+    }
+
+    .projectPartMob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+
+    .projectDescription2 {
+        width: 90%;
+        display: grid;
+        gap: 10px;
+    }
+
+
+    .projectImg2 {
+        width: 88%;
+    }
+
+    .menuIcon {
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    .clr {
+        color: #FFFF00;
+    }
+
+
+    .logoName h2 {
+        color: white;
+    }
+
+    .menuIconTag {
+        display: flex;
+    }
+
+    .menuSec {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        position: fixed;
+        backdrop-filter: blur(2px);
+        z-index: 7;
+        cursor: pointer;
+        align-items: center;
+
+    }
+
+    .aboutMeHead h1 {
+        font-size: 25px;
+
+    }
+
+    .aboutContentArea {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .aboutImgSec {
+        width: 100%;
+        display: none !important;
+    }
+
+    .aboutDescription h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .aboutDesOne {
+        width: 50%;
+    }
+
+    .aboutDesOne h1 {
+        color: #ffffff;
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .aboutDesOne p {
+        color: #646262;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .headCourse {
+        font-size: 20px;
+        color: #08f;
+        margin-bottom: 8px;
+    }
+
+    .skillHead h1 {
+        font-size: 25px;
+    }
+
+    .allSkills {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+        width: 80%;
+    }
+
+    .skillText {
+        color: white;
+        font-size: 14px !important;
+        text-align: center;
+    }
+
+    .projectHead h1 {
+        font-size: 25px;
+    }
+
+    .catLink {
+        padding: 3px 9px;
+        background-color: #000;
+        border-radius: 50px;
+        font-size: 11px;
+        margin-bottom: 0rem;
+        color: white;
+    }
+
+    .projCategory {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: antiquewhite;
+        width: 95%;
+        border-radius: 50px;
+        padding: 7px 0px;
+    }
+
+    .projectImg {
+        width: 88%;
+    }
+
+    .projectPart {
+
+        flex-direction: column;
+    }
+
+    .dateIntern {
+        color: #646262;
+        font-size: 14px;
+    }
+
+    .projectDescription {
+        width: 90%;
+    }
+
+    .aboutDesOne h1, p {
+        color: #e1e1e1;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .liveBtn {
+        background-color: bisque;
+        padding: 5px 10px;
+        border-radius: 15px;
+        border: none;
+        color: black;
+        width: fit-content;
+    }
+
+    .aboutSection {
+        background-color: #020202;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .projectBtn {
+        border: none;
+        background-color: antiquewhite;
+        padding: 5px 30px;
+        border-radius: 18px;
+        width: fit-content;
+    }
+
+    .projectPart {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 40px;
+    }
+
+    .projectImgPart {
+        width: 100%;
+    }
+
+    .contactHead h1 {
+        font-size: 25px;
+    }
+
+    .formSection {
+        padding: 14px;
+        display: grid;
+        gap: 20px;
+    }
+
+    .inputOne {
+        width: 132px;
+    }
+
+    .bgColor {
+        width: 243px;
+        height: 18vh;
+    }
+
+    textarea {
+        height: 25vh;
+    }
+
+    .formMsg h1 {
+        font-size: 17px !important;
+        margin-bottom: 0;
+    }
+
+    .contactHead {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .formMsgLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formMsgLinks a {
+        font-size: 15px !important;
+    }
+
+    .contactQuery {
+
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .projectImgPartPoster {
+        width: 131px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .grapPosterSec {
+        width: 85%;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    .projectImg3 h1 {
+        font-size: 15px;
+    }
+
+    .projectImg3 {
+        margin-bottom: 10px;
+    }
+
+    .footerLinks a {
+        font-size: 14px;
+    }
+
+    .footerLinks {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerSecOne h1 {
+        font-size: 24px !important;
+    }
+
+    .footerSecOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 18px;
+    }
+
+    .internshipAbout {
+        background-color: #0f0f0fb2;
+        padding: 8px;
+    }
+
+    h3 {
+        margin-bottom: 0rem;
+    }
+
+    .bottomCpy {
+        color: #e1e1e1a9;
+        font-size: 12px !important;
+    }
+
+    .skillPart {
+        background-color: #020202;
+        padding-bottom: 25%;
+        padding-top: 15%;
+    }
+
+    .projectSection {
+        background-color: #020202;
+
+        padding-bottom: 25%;
+    }
+
+    .contactMe {
+        background-color: #020202;
+        padding-bottom: 10%;
+        padding-top: 15%;
+    }
+
+
+
+}
