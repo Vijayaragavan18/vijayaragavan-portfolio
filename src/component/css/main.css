@@ -754,11 +754,9 @@ label {
     display: none;
 }
 
-.devCetagory {
-    display: none;
-}
 
-.devCetagory.active {
+
+.devCetagory {
 
 
     display: flex;
@@ -767,30 +765,32 @@ label {
 }
 
 .projectPop {
-    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.3);
+
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.4s ease;
     z-index: 10;
 }
 
-.projectPop.one {
+.popup-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+/* .projectPop.one {
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 1;
     visibility: visible;
-}
+} */
 
 
 .devCetagoryOne {
@@ -876,6 +876,18 @@ img {
     border-radius: 10px;
     width: 60%;
     text-align: center;
+}
+
+.navPageBtn button {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.menuSideBar button {
+    border: none;
+    color: white;
+    background-color: transparent;
 }
 
 .myProfilePhoto {
@@ -1130,6 +1142,15 @@ img {
     .menuSideBar a {
         color: white;
         transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .menuSideBar button {
+        color: white;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .menuSideBar button:hover {
+        transform: scale(1.1);
     }
 
     .menuSideBar a:hover {

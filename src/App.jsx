@@ -9,6 +9,7 @@ import Projects from './component/Projects/project';
 import LinksRote from './component/LinksRote/LinksRote';
 import Contact from './component/contact/contact';
 import Footer from './component/footer/footer';
+// import Uncult from './component/Task/unculltr';
 import { createContext, React, useState } from 'react';
 export const cartContext = createContext();
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <>
       <cartContext.Provider value={{ visible, setvisible }}>
         <HeroPage />
+
         <AboutMe />
         <Skill />
         <Projects />

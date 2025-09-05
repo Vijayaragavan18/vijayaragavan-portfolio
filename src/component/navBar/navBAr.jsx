@@ -9,7 +9,14 @@ import cv from '../../asset/Vijayaragavan.t.cv.pdf';
 import { IoCall } from "react-icons/io5";
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
-
+    function scrollToSection(id) {
+        const target = document.getElementById(id);
+        if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+            target.classList.add("highlight");
+            setTimeout(() => target.classList.remove("highlight"), 2000);
+        }
+    }
 
     return (
         <>
@@ -19,13 +26,22 @@ function NavBar() {
                     <h2> VR</h2>
                 </div>
                 <div className="navPageBtn col-lg-6">
-                    <a className="fw-semibold   " href="/">Home</a>
-                    <a className="fw-semibold  " href="#About" id="Abouts">About Me</a>
-                    <a className="fw-semibold  " href="#Skill" id="Skills">Skills</a>
-                    <a className="fw-semibold  " href="#project" id="Projects">Projects</a>
-                    <a className="fw-semibold  " href="#profile" id="Profiles">Profiles</a>
-                    <a className="fw-semibold  " href="#Contact" id="Contacts">Contact</a>
-                    {/* <a className="fw-semibold  " href="">Resume</a> */}
+                    <button id="Abouts" onClick={() => scrollToSection("About")}>
+                        About
+                    </button>
+
+                    <button id="Skills" onClick={() => scrollToSection("Skill")}>
+                        Skills
+                    </button>
+                    <button id="Projects" onClick={() => scrollToSection("project")}>
+                        Projects
+                    </button>
+                    <button id="Profiles" onClick={() => scrollToSection("profile")}>
+                        Profile
+                    </button>
+                    <button id="Contacts" onClick={() => scrollToSection("Contact")}>
+                        Contact
+                    </button>
                 </div>
                 <div className="contactL col-lg-3 ">
                     <a className="navIcon" href="https://www.linkedin.com/in/vijay-ragavan-t-941b1621b/" target="_blank" title="My LinkedIn"><FaLinkedinIn /></a>
@@ -54,12 +70,22 @@ function NavBar() {
             {isOpen &&
                 <div className="menuSec" onClick={() => setIsOpen(false)}>
                     <div className="menuSideBar">
-                        <a className="fw-semibold   " href="/">Home</a>
-                        <a className="fw-semibold  " href="#About" id="Abouts">About Me</a>
-                        <a className="fw-semibold  " href="#Skill" id="Skills">Skills</a>
-                        <a className="fw-semibold  " href="#project" id="Projects">Projects</a>
-                        <a className="fw-semibold  " href="#profile" id="Profiles">Profiles</a>
-                        <a className="fw-semibold  " href="#Contact" id="Contacts">Contact</a>
+                        <button id="Abouts" onClick={() => scrollToSection("About")}>
+                            About
+                        </button>
+                        <button id="Skills" onClick={() => scrollToSection("Skill")}>
+                            Skills
+                        </button>
+                        <button id="Projects" onClick={() => scrollToSection("project")}>
+                            Projects
+                        </button>
+
+                        <button id="Profiles" onClick={() => scrollToSection("profile")}>
+                            Profile
+                        </button>
+                        <button id="Contacts" onClick={() => scrollToSection("Contact")}>
+                            Contact
+                        </button>
                         <a className="downloadBtn" href={cv} download="Vijayragavan__Cv.pdf">
                             Download CV
                         </a>

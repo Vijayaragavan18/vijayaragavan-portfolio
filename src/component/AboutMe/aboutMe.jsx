@@ -1,19 +1,34 @@
-import React from 'react'
 
-import AboutMe from '../images/aboutMe3.png';
+
+import AboutMe2 from '../images/aboutMe3.png';
 import '../css/main.css';
 import { motion } from 'framer-motion';
-const aboutMe = () => {
+
+const AboutMe = () => {
+
+
+
+
     return (
         <>
+
+
+
+
+
+
+
             <div className="aboutSection " id="About">
+
+
+
 
                 <div className="aboutContent">
                     <div className="aboutMeHead ">
                         <h1 className="fw-bold " >About Me</h1>
                     </div>
                     <div className="aboutContentArea mt-lg-5 mt-sm-3">
-                        <div className="aboutImgSec d-flex align-content-center justify-content-center"> <img className="aboutMe " src={AboutMe} alt="AboutMe" /></div>
+                        <div className="aboutImgSec d-flex align-content-center justify-content-center"> <img className="aboutMe " src={AboutMe2} alt="AboutMe" /></div>
                         <div className="aboutDescription d-flex flex-column gap-3 ">
                             {/* <h3 className="fs-5    fw-normal  ">I'm an aspiring Software Development Engineer with a strong foundation in Java and full-stack web development. I actively solve problems using Data Structures and Algorithms to sharpen my logic and coding skills.
                                 Trained in building scalable applications, I also bring a good eye for UI/UX and graphic design helping me create clean, user friendly experiences.
@@ -75,4 +90,4 @@ const aboutMe = () => {
     );
 };
 
-export default aboutMe;
+export default AboutMe;
